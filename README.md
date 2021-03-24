@@ -7,10 +7,11 @@ This App is a simple a memory api with connection to a real database to achieve 
   * create a user on your Mongo Atlas instance that has Read and write to any database permission  
   * the user name `dbadmin`  
   *  the password `dbpassword`
-  *  using mongoose, in the `app.js` file inside of the `MyContacts` directory add the code to successfully connect to your database, which should be named `contacts`. 
+  *  using mongoose, in the `app.js` file inside of the `MyContacts` directory is where I connected the database.
   * schema for a Contact model 
   * contacts router to defines all the endpoints in the `contactsRouter` module.  
   * handlers pass routes in the `contactsController` module.
+
 
 
 
